@@ -26,7 +26,7 @@
 
 # 1 <= prices.length <= 105
 # 0 <= prices[i] <= 104
-
+import os
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -44,5 +44,8 @@ class Solution(object):
                 best_day = prices.index(price) + 1
             i +=1
         return best_price if best_price > 0 else 0
+
+if __name__ == "__main__":
+ Solution.maxProfit(os.argv[1])
 
         
