@@ -60,6 +60,8 @@ class Solution(object):
             heightLine -=1
         return maxArea
 
+
+# Final Inefficient version, ended up using the ubiquitous two pointer method for the final submission, overall I'm way more proud of this than the efficient algothrithm
 # class Solution(object):
 #     def maxArea(self, height):
 #         """
