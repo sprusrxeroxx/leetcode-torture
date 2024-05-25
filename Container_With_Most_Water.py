@@ -23,8 +23,9 @@
 # Input: height = [1,1]
 # Output: 1
 
-# The Solution I came up with 
 
+
+# The GREEDY Solution I came up with
 
 class Solution(object):
     def maxArea(self, height):
